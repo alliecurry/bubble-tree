@@ -1,0 +1,5 @@
+<h1>New Tree for project <%= @project.name %></h1>
+
+<%= render 'form', tree: @tree, project: @project %>
+
+<%= link_to 'Back', project_trees_path %>

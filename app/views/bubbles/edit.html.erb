@@ -1,0 +1,6 @@
+<h1>Editing Bubble</h1>
+
+<%= render 'form', bubble: @bubble, project: @project, tree: @tree %>
+
+<%= link_to 'Show', [@project, @tree, @bubble] %> |
+<%= link_to 'Back', project_tree_bubbles_path(@project, @tree) %>

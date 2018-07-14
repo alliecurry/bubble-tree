@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @bubble.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @bubble.description %>
+</p>
+
+<p>
+  <strong>Tree:</strong>
+  <%= @bubble.tree.name %>
+</p>
+
+<p>
+  <strong>Parent:</strong>
+  <%= @bubble.parent.name %>
+</p>
+
+
+<%= link_to 'Edit', edit_project_tree_bubble_path(@bubble) %> |
+<%= link_to 'Back', project_tree_bubbles_path %>
